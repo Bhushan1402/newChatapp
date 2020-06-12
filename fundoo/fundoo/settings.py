@@ -21,8 +21,8 @@ ALLOWED_HOSTS = ['*']
 # Email verification
 EMAIL_USE_TLS = True            # Email Tools true
 EMAIL_HOST = 'smtp.gmail.com'   # SMTP protocol for mail transfer
-EMAIL_HOST_USER = 'shashankshekhar2311@gmail.com'   # email to be send from user
-EMAIL_HOST_PASSWORD = 'Shashank@1705'                   # password
+EMAIL_HOST_USER = 'bhushandata95@gmail.com'   # email to be send from user
+EMAIL_HOST_PASSWORD = 'Bhushan1402'                   # password
 EMAIL_PORT = 587                                       # default email port
 DEFAULT_FROM_EMAIL = 'TestSite Team <noreply@example.com>'  # subject for email
 
@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'chatappdb',
         'USER': 'postgres',
         'PASSWORD': '12345678',
-        'HOST': 'database-1.c3s9ua8nvo0v.ap-south-1.rds.amazonaws.com',
+        'HOST': 'database-1.cp8ezss9fwvy.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
