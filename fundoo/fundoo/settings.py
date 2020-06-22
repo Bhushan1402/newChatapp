@@ -106,7 +106,7 @@ DATABASES = {
         'NAME': 'ChatApp',
         'USER': 'bhushan',
         'PASSWORD': 'Bhushan123',
-        'HOST': 'db.cp8ezss9fwvy.us-east-2.rds.amazonaws.com',
+        'HOST': 'terraform-20200621060511401100000001.cp8ezss9fwvy.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
