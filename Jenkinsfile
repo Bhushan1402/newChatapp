@@ -2,11 +2,6 @@
 pipeline {
     agent any
      stages {
-         stage('Sonarqube') {
-           environment {
-                scannerHome = tool 'sonarScanner'
-                }
-         }
      stage('Build') { 
            steps {
              echo "Bhushan"
