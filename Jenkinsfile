@@ -4,11 +4,11 @@ pipeline {
      stages {
          stage('Sonarqube') {
            environment {
-                scannerHome = tool 'sonar-scanner'
+                scannerHome = tool 'sonar-scanner-4.3.0.2102-linux'
                 }
          steps {
             withSonarQubeEnv('SonarQubeChatApp') {
-                sh "${scannerHome}/bin/sonar-scanner"
+                sh "${scannerHome}/bin/sonar-scanner-4.3.0.2102-linux"
             }
             timeout(time: 5, unit: 'MINUTES') {
                 waitForQualityGate abortPipeline: true
