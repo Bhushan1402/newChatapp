@@ -4,7 +4,7 @@ pipeline {
      stages {
          stage('Sonarqube') {
            environment {
-                scannerHome = tool 'sonar-scanner-4.3.0.2102-linux'
+                scannerHome = tool 'sonar-scanner'
                 }
          steps {
             withSonarQubeEnv('SonarQubeChatApp') {
