@@ -8,7 +8,7 @@ pipeline {
                 }
          steps {
             withSonarQubeEnv('SonarQubeChatApp') {
-                sh "${scannerHome}/bin/sonar-scanner-4.3.0.2102-linux"
+                sh "${scannerHome}/bin/sonar-scanner"
             }
             timeout(time: 5, unit: 'MINUTES') {
                 waitForQualityGate abortPipeline: true
